@@ -4,7 +4,7 @@ import type { SpaceItem, SpacesResponse } from "../types/spaces.dt";
 import { ClickUpClient } from "../utils/clickUpClient";
 
 function useSpaces(teamId: string) {
-  const [spaces, setSpaces] = useState<SpaceItem[]>([]);
+  const [spaces, setSpaces] = useState<SpaceItem[] | undefined>(undefined);
 
   useEffect(() => {
     async function getTeams() {

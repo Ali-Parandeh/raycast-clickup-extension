@@ -4,7 +4,7 @@ import { ClickUpClient } from "../utils/clickUpClient";
 import type { ListItem, ListsResponse } from "../types/lists.dt";
 
 function useLists(folderId: string) {
-  const [lists, setLists] = useState<ListItem[]>([]);
+  const [lists, setLists] = useState<ListItem[] | undefined>(undefined);
 
   useEffect(() => {
     async function getTeams() {

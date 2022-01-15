@@ -4,7 +4,7 @@ import { ClickUpClient } from "../utils/clickUpClient";
 import type { FolderItem, FoldersResponse } from "../types/folders.dt";
 
 function useFolders(spaceId: string) {
-  const [folders, setFolders] = useState<FolderItem[]>([]);
+  const [folders, setFolders] = useState<FolderItem[] | undefined>(undefined);
 
   useEffect(() => {
     async function getTeams() {

@@ -4,7 +4,7 @@ import type { TeamItem, TeamsResponse } from "../types/teams.dt";
 import { ClickUpClient } from "../utils/clickUpClient";
 
 function useTeams() {
-  const [teams, setTeams] = useState<TeamItem[]>([]);
+  const [teams, setTeams] = useState<TeamItem[] | undefined>(undefined);
 
   useEffect(() => {
     async function getTeams() {
