@@ -1,7 +1,7 @@
 export interface TeamsResponse {
-  teams: TeamsItem[];
+  teams: TeamItem[];
 }
-export interface TeamsItem {
+export interface TeamItem {
   id: string;
   name: string;
   color: string;

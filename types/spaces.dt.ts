@@ -1,7 +1,7 @@
 export interface SpacesResponse {
-  spaces: SpacesItem[];
+  spaces: SpaceItem[];
 }
-export interface SpacesItem {
+export interface SpaceItem {
   id: string;
   name: string;
   private: boolean;

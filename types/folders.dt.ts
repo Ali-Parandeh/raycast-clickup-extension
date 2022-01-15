@@ -1,7 +1,7 @@
 export interface FoldersResponse {
-  folders: FoldersItem[];
+  folders: FolderItem[];
 }
-export interface FoldersItem {
+export interface FolderItem {
   id: string;
   name: string;
   orderindex: number;

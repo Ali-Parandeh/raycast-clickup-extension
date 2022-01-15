@@ -1,7 +1,7 @@
 export interface TasksResponse {
-  tasks: TasksItem[];
+  tasks: TaskItem[];
 }
-export interface TasksItem {
+export interface TaskItem {
   id: string;
   custom_id: null;
   name: string;
