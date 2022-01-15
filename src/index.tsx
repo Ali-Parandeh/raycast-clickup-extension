@@ -1,6 +1,6 @@
 import { ActionPanel, PushAction, Icon, List } from "@raycast/api";
 import { useTeams } from "../hooks/useTeams";
-import { TeamProjects } from "./views/TeamProjects";
+import { TeamSpaces } from "./views/TeamSpaces";
 
 export default function Teams() {
   const teams = useTeams();
@@ -13,7 +13,7 @@ export default function Teams() {
           title={team.name}
           actions={
             <ActionPanel title="Team Actions">
-              <PushAction title="Projects Page" target={<TeamProjects teamId={team?.id} teamName={team?.name} />} />
+              <PushAction title="Projects Page" target={<TeamSpaces teamId={team?.id} teamName={team?.name} />} />
             </ActionPanel>
           }
         />
