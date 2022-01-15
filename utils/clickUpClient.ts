@@ -1,14 +1,8 @@
 import axios, { AxiosRequestHeaders, AxiosResponse } from "axios";
-import { getPreferenceValues } from "@raycast/api";
-
-interface Preferences {
-  token: string;
-}
-
-const { token }: Preferences = getPreferenceValues();
+import preferences from "./preferences";
 
 axios.defaults.baseURL = "https://api.clickup.com/api/v2";
-axios.defaults.headers.common["Authorization"] = token;
+axios.defaults.headers.common["Authorization"] = preferences.token;
 axios.defaults.headers.post["Content-Type"] = "application/json; charset=utf-8";
 axios.defaults.headers.get["Content-Type"] = "application/json; charset=utf-8";
 
