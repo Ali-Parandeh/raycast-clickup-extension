@@ -14,6 +14,17 @@
       "mode": "view"
     }
   ],
+  "preferences": [
+    {
+      "name": "token",
+      "type": "password",
+      "required": true,
+      "title": "API Token",
+      "description": "Your ClickUp API token taken from User Settings > apps > API Token in ClickUp Desktop",
+      "link": "https://github.com/Ali-Parandeh/raycast-clickup-extension",
+      "placeholder": "Enter your ClickUp API token."
+    }
+  ],
   "dependencies": {
     "@raycast/api": "^1.27.0",
     "axios": "^0.24.0",
