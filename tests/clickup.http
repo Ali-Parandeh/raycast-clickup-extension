@@ -55,3 +55,15 @@ client.test("Request executed successfully", function() {
   client.assert(response.status === 200, "Response status is not 200");
 });
 %}
+
+
+### GET - Returns Error
+https://api.clickup.com/api/v2/list/123456/task?archived=false
+Accept: application/json
+Authorization: {{token}} # requires http-client.private.env.json
+
+> {%
+client.test("Request Failed", function() {
+  client.assert(response.status !== 200, "Response Must be anything but 200");
+});
+%}
