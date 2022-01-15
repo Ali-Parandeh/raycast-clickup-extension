@@ -25,7 +25,7 @@
       "placeholder": "Enter your ClickUp API token."
     },
     {
-      "name": "team_id",
+      "name": "teamId",
       "type": "textfield" ,
       "required": false,
       "title": "Default Team ID",
@@ -34,7 +34,7 @@
       "placeholder": "123456789"
     },
     {
-      "name": "space_id",
+      "name": "spaceId",
       "type": "textfield" ,
       "required": false,
       "title": "Default Space ID",
