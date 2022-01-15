@@ -1,10 +1,15 @@
-import { Detail } from "@raycast/api";
+import { List } from "@raycast/api";
 import { useSpaces } from "../../hooks/useSpaces";
 
 function TeamProjects({ teamId, teamName }: { teamId: string; teamName: string }) {
   const spaces = useSpaces(teamId);
-  console.log(spaces);
-  return <Detail navigationTitle={`${teamName} Team Projects`} markdown={`${teamName} Team Projects`} />;
+  return (
+    <List throttle={true} isLoading={spaces === undefined} navigationTitle={`${teamName} Team Projects`}>
+      {spaces?.map((space) => (
+        <List.Item key={space.id} title={space.name} subtitle={space.id} />
+      ))}
+    </List>
+  );
 }
 
 export { TeamProjects };
