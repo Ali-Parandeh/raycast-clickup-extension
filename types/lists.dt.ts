@@ -1,7 +1,7 @@
 export interface ListsResponse {
-  lists: ListsItem[];
+  lists: ListItem[];
 }
-export interface ListsItem {
+export interface ListItem {
   id: string;
   name: string;
   orderindex: number;
