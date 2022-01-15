@@ -9,8 +9,8 @@
   "commands": [
     {
       "name": "index",
-      "title": "Search Clickup Tasks",
-      "description": "Search Tasks in Clickuo",
+      "title": "Manage Clickup Tasks",
+      "description": "Search, edit, assign and create ClickUp tasks from RayCast",
       "mode": "view"
     }
   ],
