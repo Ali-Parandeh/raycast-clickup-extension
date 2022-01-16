@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "manage-clickup-tasks",
-  "title": "Browse Clickup Tasks",
+  "title": "Clickup Tasks Explorer",
   "description": "Browse ClickUp tasks from RayCast",
   "icon": "clickup-icon.png",
   "author": "aparandeh",
@@ -9,7 +9,7 @@
   "commands": [
     {
       "name": "index",
-      "title": "Browse Clickup Tasks",
+      "title": "Clickup Tasks Explorer",
       "description": "Browse ClickUp tasks from RayCast",
       "mode": "view"
     }
