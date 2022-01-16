@@ -1,16 +1,16 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "manage-clickup-tasks",
-  "title": "Manage Clickup Tasks",
-  "description": "Search, edit, assign and create ClickUp tasks from RayCast",
+  "title": "Browse Clickup Tasks",
+  "description": "Browse ClickUp tasks from RayCast",
   "icon": "clickup-icon.png",
   "author": "aparandeh",
   "license": "MIT",
   "commands": [
     {
       "name": "index",
-      "title": "Manage Clickup Tasks",
-      "description": "Search, edit, assign and create ClickUp tasks from RayCast",
+      "title": "Browse Clickup Tasks",
+      "description": "Browse ClickUp tasks from RayCast",
       "mode": "view"
     }
   ],
