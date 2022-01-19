@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "manage-clickup-tasks",
-  "title": "Clickup Tasks Explorer",
+  "title": "Tasks Explorer",
   "description": "Browse ClickUp tasks from RayCast",
   "icon": "clickup-icon.png",
   "author": "aparandeh",

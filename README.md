@@ -1,13 +1,13 @@
 # ClickUp Tasks Explorer
 
-Plugin for Raycast to explore your [ClickUpTasks](https://github.com/Ali-Parandeh/raycast-clickup-extension).
+Plugin for Raycast to explore your [ClickUp](https://github.com/Ali-Parandeh/raycast-clickup-extension) Tasks.
 
 ## How to obtain an API Token
-- Go to [ClickUp](https://clickup.com/login)
+- Go to [ClickUp](https://app.clickup.com/login)
 - Click on **USER SETTINGS**
 - Click on **APPS**
 
-![](./assets/obtain-api-token.png)
+![](assets/obtain-api-token.png)
 
 - Generate an **API TOKEN**
 
