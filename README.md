@@ -2,6 +2,12 @@
 
 Plugin for Raycast to explore your [ClickUp](https://github.com/Ali-Parandeh/raycast-clickup-extension) Tasks.
 
+
+
+https://user-images.githubusercontent.com/43654026/151473364-3746e018-aeb2-4293-ab49-c08ed414c7cc.mov
+
+
+
 ## How to obtain an API Token
 - Go to [ClickUp](https://app.clickup.com/login)
 - Click on **USER SETTINGS**
@@ -19,6 +25,7 @@ Plugin for Raycast to explore your [ClickUp](https://github.com/Ali-Parandeh/ray
 - [x] View each tasks by priority
 - [x] Open each task via the browser
 - [x] Set your default team ID and space IDs
+- [ ] Resolve issue with folderless lists
 - [ ] Search and order all of your ClickUp Team and space tasks by any filters or query (e.g. due date, priority, status, duration in progress etc.)
 - [ ] List and view tasks assigned to you ordered by priority and due date
 - [ ] View and browse subtasks
